@@ -13,6 +13,9 @@ public:
 class DoubleLinkedList {
 private:
     Node* START;
+public:
+    DoubleLinkList();
+    void addNode();
 };
 
 
