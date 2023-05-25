@@ -19,10 +19,15 @@ public:
     bool search(int rollNo, Node** previous, Node** current);
     bool deleteNode(int rollNo);
     bool listEmpty();
+    void revtraverse();
     void trasverse();
     void hapus();
     void searchData();
 };
+
+DoubleLinkedList::DoubleLinkList() {
+    START = NULL; 
+}
 
 
 int main()
