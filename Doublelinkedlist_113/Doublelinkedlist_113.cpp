@@ -105,5 +105,5 @@ bool DoubleLinkedList::listEmpty() {
     return (START == NULL);
 }
 
-void DoubleLinkedList::listEmpty() {
+void DoubleLinkedList::traverse() {
 }
