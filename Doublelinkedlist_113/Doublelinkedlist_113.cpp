@@ -202,6 +202,9 @@ int main() {
                 break;
             case '6':
                 return 0;
+            default:
+                cout << "\nIvalid option" << endl;
+                break;
             }
         }
     }
