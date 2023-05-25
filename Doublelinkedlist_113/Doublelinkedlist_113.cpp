@@ -200,6 +200,8 @@ int main() {
             case '5':
                 obj.searchdata();
                 break;
+            case '6':
+                return 0;
             }
         }
     }
