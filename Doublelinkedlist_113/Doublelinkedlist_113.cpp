@@ -47,6 +47,8 @@ void DoubleLinkedList::addNode() {
             return;
         }
         newNode->next = START; //step 3
+        if (START != NULL)
+            START->prev = newNode; // step 4
     }
 
 }
