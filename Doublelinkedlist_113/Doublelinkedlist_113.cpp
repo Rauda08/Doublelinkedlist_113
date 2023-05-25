@@ -29,6 +29,10 @@ DoubleLinkedList::DoubleLinkList() {
     START = NULL; 
 }
 
+void DoubleLinkedList::addNode() {
+
+}
+
 
 int main()
 {
